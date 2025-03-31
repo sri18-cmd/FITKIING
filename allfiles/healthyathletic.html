@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="STYLES/healthyathletic.css" />
+    <title>Document</title>
+    <style>
+      .header {
+        position: fixed;
+        height: 55px;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-bottom: solid;
+        border-bottom-color: white;
+        border-radius: 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        /* Adjust shadow if needed */
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        /* Remove underline from links */
+      }
+
+      .header-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .logo {
+        height: 30px;
+        width: 30px;
+        margin-top: 12px;
+        border-radius: 50%;
+      }
+
+      .header-1 p {
+        font-family: "Madimi One", sans-serif;
+      }
+
+      .header-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+        padding-right: 34px;
+        position: relative;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+      }
+
+      .dropdown-menu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+      }
+
+      .dropdown-menu a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .menu-icon {
+        display: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 15px;
+        }
+
+        .header-2 {
+          display: none;
+        }
+
+        .menu-icon {
+          display: block;
+        }
+
+        .dropdown-menu {
+          position: static;
+          display: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+    <div class="main">
+      <h1>Diet Plan for Athletes/Fitness Enthusiasts</h1>
+      <p>
+        For athletes and fitness enthusiasts, focusing on nutrient-dense foods
+        over calorie counting is crucial. Emphasize whole, minimally processed
+        options rich in protein, healthy fats, complex carbohydrates, vitamins,
+        and minerals. Lean proteins like chicken, fish, and tofu, paired with
+        fruits, vegetables, whole grains, nuts, and seeds, provide essential
+        nutrients for performance and recovery. Prioritize hydration with water
+        and electrolyte-rich beverages during intense workouts. Balanced meals
+        incorporating protein, carbs, and fats support sustained energy levels
+        and muscle repair. Listen to your body's signals to tailor your
+        nutrition plan to individual needs. If cooking is feasible, meal prep
+        with nutritious ingredients; otherwise, choose the healthiest options
+        available. Remember, nutrition complements overall fitness alongside
+        regular exercise, rest, and stress management.
+      </p>
+    </div>
+    <div class="monday">
+      <h2>Monday:</h2>
+      <img src="./images/monath.jpg" alt="Monday" />
+      <ul>
+        <li>
+          Breakfast- 2 slices of whole wheat bread with avocado spread (300
+          calories)
+        </li>
+        <li>Morning Snack- Greek yogurt with mixed berries (200 calories)</li>
+        <li>
+          Lunch- Grilled chicken breast with quinoa and steamed broccoli (500
+          calories)
+        </li>
+        <li>Evening Snack– Protein shake with banana (300 calories)</li>
+        <li>
+          Dinner- Baked salmon with sweet potato and green beans (600 calories)
+        </li>
+      </ul>
+    </div>
+    <div class="tuesday">
+      <h2>Tuesday:</h2>
+      <img src="./images/Tuesday.jpg" alt="Tuesday" />
+      <ul>
+        <li>
+          Breakfast-Oatmeal with almond butter and sliced banana (350 calories)
+        </li>
+        <li>Morning Snack- Protein bar (200 calories)</li>
+        <li>Lunch-Turkey and avocado wrap with mixed greens (400 calories)</li>
+        <li>Evening Snack– Handful of almonds and an apple (250 calories)</li>
+        <li>Dinner- Grilled steak with quinoa salad (600 calories)</li>
+      </ul>
+    </div>
+    <div class="wed">
+      <h2>Wednesday:</h2>
+      <img src="./images/Wednesday.jpg" alt="Wednesday" />
+      <ul>
+        <li>
+          Breakfast– Smoothie made with spinach, banana, protein powder, and
+          almond milk (300 calories)
+        </li>
+        <li>
+          Morning Snack- Cottage cheese with pineapple chunks (200 calories)
+        </li>
+        <li>
+          Lunch-Grilled shrimp with brown rice and roasted vegetables (500
+          calories)
+        </li>
+        <li>Evening Snack-Whole grain crackers with hummus (250 calories)</li>
+        <li>
+          Dinner–Stir-fried tofu with mixed vegetables and brown rice (400
+          calories)
+        </li>
+      </ul>
+    </div>
+    <div class="thur">
+      <h2>Thursday:</h2>
+      <img src="./images/Thursday.jpg" alt="Thursday" />
+      <ul>
+        <li>
+          Breakfast- Scrambled eggs with spinach and whole wheat toast (350
+          calories)
+        </li>
+        <li>Morning Snack-Protein yogurt with mixed berries (200 calories)</li>
+        <li>
+          Lunch– Grilled chicken salad with quinoa, avocado, and cherry tomatoes
+          (450 calories)
+        </li>
+        <li>Evening Snack–Rice cakes with almond butter (250 calories)</li>
+        <li>
+          Dinner- Baked cod with roasted sweet potatoes and asparagus (500
+          calories)
+        </li>
+      </ul>
+    </div>
+    <div class="fri">
+      <h2>Friday:</h2>
+      <img src="./images/Friday.jpg" alt="Friday" />
+      <ul>
+        <li>
+          Breakfast-Whole grain pancakes with Greek yogurt and sliced
+          strawberries (400 calories)
+        </li>
+        <li>Morning Snack– Protein shake with almond milk (250 calories)</li>
+        <li>
+          Lunch-Turkey chili with brown rice and mixed greens (500 calories)
+        </li>
+        <li>Evening Snack-Apple slices with peanut butter (200 calories)</li>
+        <li>
+          Dinner-Grilled chicken breast with quinoa and steamed broccoli (500
+          calories)
+        </li>
+      </ul>
+    </div>
+    <div class="sat">
+      <h2>Saturday:</h2>
+      <img src="./images/Saturday.jpg" alt="Saturday" />
+      <ul>
+        <li>
+          Breakfast–Egg white omelette with spinach, mushrooms, and feta cheese
+          (300 calories)
+        </li>
+        <li>Morning Snack–Protein bar and a banana (300 calories)</li>
+        <li>
+          Lunch-Tuna salad with mixed greens, cherry tomatoes, and avocado (400
+          calories)
+        </li>
+        <li>
+          Evening Snack-Cottage cheese with pineapple chunks (200 calories)
+        </li>
+        <li>
+          Dinner-Grilled salmon with roasted sweet potatoes and green beans (600
+          calories)
+        </li>
+      </ul>
+    </div>
+    <div class="sund">
+      <h2>Sunday:</h2>
+      <img src="./images/sunday.jpg" alt="Sunday" />
+      <ul>
+        <li>
+          Breakfast-Greek yogurt parfait with granola and mixed berries (400
+          calories)
+        </li>
+        <li>
+          Morning Snack-Protein smoothie with spinach, banana, and almond milk
+          (300 calories)
+        </li>
+        <li>
+          Lunch-Grilled steak with quinoa salad and roasted vegetables (600
+          calories)
+        </li>
+        <li>Evening Snack-Protein bar (200 calories)</li>
+        <li>
+          Dinner-Baked chicken breast with brown rice and steamed broccoli (500
+          calories)
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

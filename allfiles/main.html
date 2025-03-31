@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIT KING</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="STYLES/footer.css" />
+    <link rel="stylesheet" href="STYLES/header.css" />
+    <link rel="stylesheet" href="STYLES/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="div1">
+        <div class="welcome">
+          <h1>WELCOME TO FIT KIING</h1>
+          <h2>Our Website provides:</h2>
+          <h4>~HEALTHY RECIPES PLAN</h4>
+          <h4>~ZUMBA TUTORIALS</h4>
+          <h4>~EQUIPMENT SHARING</h4>
+          <h4>~ONLINEE FREE DOCTOR CONSULTANT</h4>
+          <h4>~HOMEWORKOUT TUTORIALS</h4>
+          <h4>~BMI INFO</h4>
+          <a
+            style="text-decoration: none; color: white; margin-left: 60px"
+            href="blog.html"
+            >FOR MORE INFO...CLICK IT</a
+          >
+        </div>
+        <div>
+          <a class="bmi" href="bmi.html">
+            <img class="bmi-img" src="images/bmi.jpeg" alt="BMI" />
+            <p>CALCULATE UR BMI HERE</p>
+            CLICK ON IT
+          </a>
+        </div>
+      </div>
+
+      <div class="div-2">
+        <div>
+          <img class="about-img" src="images/about.jpeg" alt="about" />
+        </div>
+        <div class="about-info">
+          <h1>ABOUT</h1>
+          <h4>
+            Welcome to our Home Fitness Hub, your ultimate destination for all
+            things fitness, right at your fingertips. In today's fast-paced
+            world, staying fit has never been easier or more accessible. Our
+            website is designed to be your go-to resource for everything related
+            to home fitness, from workout routines and nutritional advice to
+            motivational stories and personalized fitness plans.
+          </h4>
+        </div>
+      </div>
+
+      <div>
+        <h2 style="margin-left: 40%">OUR SERVICES</h2>
+        <div class="div-3">
+          <a href="workoutsmainpage.html">
+            <img
+              class="homew-img"
+              src="images/home workouts.jpeg"
+              alt="homeworkouts"
+            />
+            <h4>Home Workouts</h4>
+          </a>
+          <a href="healthyrecipes.html">
+            <img class="food-img" src="images/food.jpeg" alt="food" />
+            <h4>Healthy Recipes</h4>
+          </a>
+        </div>
+        <div></div>
+      </div>
+
+      <div class="div-4">
+        <h2 style="margin-left: 40%">Equipment sharing</h2>
+        <div class="sub-div4">
+          <a href="share.html">
+            <img class="share" src="images/share.png" alt="share" />
+            <h4 style="text-decoration: none" class="div4-names">SHARE</h4>
+          </a>
+          <a href="equipment.html">
+            <img class="eqip" src="images/eqip shrae.jpeg" alt="equip" />
+            <h4 class="div4-names">REQUEST</h4>
+          </a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Quote display container in footer -->
+        <div class="quote-container">
+          <p id="quoteText"></p>
+        </div>
+
+        <p>&copy;2023 FitKiing | All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+  <script src="js files/footer.js"></script>
+  <script src="js files/header.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script>
+    // Array of fitness quotes
+    const fitnessQuotes = [
+      "The only bad workout is the one that didn't happen.",
+      "Strength does not come from physical capacity. It comes from an indomitable will.",
+      "Fitness is not about being better than someone else. It's about being better than you used to be.",
+      "The body achieves what the mind believes.",
+      "Fitness is not a destination, it's a journey.",
+      // Add more quotes here
+    ];
+
+    const quoteText = document.getElementById("quoteText");
+
+    // Function to display a random quote
+    function displayRandomQuote() {
+      const randomIndex = Math.floor(Math.random() * fitnessQuotes.length);
+      quoteText.textContent = fitnessQuotes[randomIndex];
+    }
+
+    // Display an initial quote
+    displayRandomQuote();
+
+    // Rotate quotes every 5 seconds
+    setInterval(displayRandomQuote, 5000);
+  </script>
+</html>

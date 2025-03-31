@@ -1,0 +1,80 @@
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 50px;
+          padding-top: 90px;
+          background-color: #000000;
+          color: #ffffff;
+      }
+
+      .container {
+          max-width: 800px;
+          margin: 0 auto;
+          background-color: #4d4c4c;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .feedback-container {
+          margin-top: 20px;
+      }
+
+      .feedback-form {
+          border: 1px solid #000000;
+          padding: 20px;
+          border-radius: 5px;
+          background-color: #1a1919;
+      }
+
+      .feedback-form input[type="text"],
+      .feedback-form textarea {
+          width: 95%;
+          margin-bottom: 10px;
+          padding: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc;
+      }
+
+      .feedback-form input[type="submit"] {
+          padding: 10px 20px;
+          background-color: #000000;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+
+      .feedback-form input[type="submit"]:hover {
+          background-color: #444;
+      }
+
+      .feedback-list {
+          margin-top: 20px;
+      }
+
+      .feedback {
+          border: 1px solid #ccc;
+          padding: 10px;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          background-color: #1f1e1e;
+      }
+
+      .submit {
+          margin-top: 15px;
+          background-color: red;
+          color: white;
+          height: 35px;
+          width: 85px;
+          font-size: 17px;
+          border-radius: 30px;
+          border: none;
+      }
+
+      .submit:hover {
+          background-color: rgb(222, 115, 115);
+          height: 40px;
+          width: 90px;
+      }

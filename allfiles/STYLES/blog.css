@@ -1,0 +1,46 @@
+      body {
+          background-color: #000;
+          color: #fff;
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+      }
+
+      h1,
+      h2 {
+          font-weight: normal;
+          margin-bottom: 1rem;
+      }
+
+      h1 {
+          font-size: 2.5rem;
+      }
+
+      h2 {
+          font-size: 2rem;
+      }
+
+      p {
+          margin-bottom: 1rem;
+      }
+
+      .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.7);
+      }
+
+      .image-container {
+          text-align: center;
+          margin-bottom: 2rem;
+      }
+
+      .image-container img {
+          width: 100%;
+          max-width: 500px;
+          height: auto;
+      }
+
+      .highlight {
+          color: #ffc107;
+      }

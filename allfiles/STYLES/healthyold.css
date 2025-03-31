@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main h1 {
+    margin-top: 100px;
+}
+
+.main p {
+    font-size: larger;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.main {
+    border-bottom: 5px dashed white;
+}
+
+.monday img {
+    border-radius: 5px;
+    margin-left: 430px;
+
+}
+
+.monday li {
+    font-size: large;
+
+}
+
+.monday {
+    border-bottom: 5px dashed white;
+    padding-bottom: 10px;
+
+}
+
+.tuesday img {
+    border-radius: 5px;
+    margin-left: 430px;
+
+}
+
+.tuesday li {
+    font-size: large;
+
+}
+
+.tuesday {
+    border-bottom: 5px dashed white;
+    padding-bottom: 10px;
+
+}
+
+.wed img {
+    border-radius: 5px;
+    margin-left: 430px;
+
+}
+
+.wed li {
+    font-size: large;
+
+}
+
+.wed {
+    border-bottom: 5px dashed white;
+    padding-bottom: 10px;
+
+}
+
+.thur img {
+    border-radius: 5px;
+    margin-left: 430px;
+
+}
+
+.thur li {
+    font-size: large;
+
+}
+
+.thur {
+    border-bottom: 5px dashed white;
+    padding-bottom: 10px;
+
+}
+
+.fri img {
+    border-radius: 5px;
+    margin-left: 430px;
+
+}
+
+.fri li {
+    font-size: large;
+
+}
+
+.fri {
+    border-bottom: 5px dashed white;
+    padding-bottom: 10px;
+
+}
+
+.sat img {
+    border-radius: 5px;
+    margin-left: 430px;
+
+}
+
+.sat li {
+    font-size: large;
+
+}
+
+.sat {
+    border-bottom: 5px dashed white;
+    padding-bottom: 10px;
+
+}
+
+.sund img {
+    border-radius: 5px;
+    margin-left: 430px;
+
+}
+
+.sund li {
+    font-size: large;
+
+}

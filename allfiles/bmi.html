@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="STYLES\main.css" />
+    <link rel="stylesheet" href="STYLES\header.css" />
+    <link rel="stylesheet" href="STYLES/footer.css" />
+    <link rel="stylesheet" href="STYLES/BMI.CSS">
+  </head>
+  <body>
+        <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+    
+
+    <div class="calculator-container">
+      <h2>BMI Calculator</h2>
+      <div class="input-group">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" value="70" />
+      </div>
+      <div class="input-group">
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" value="170" />
+      </div>
+      <button class="calculate-button" id="calculateButton">
+        Calculate BMI
+      </button>
+      <div class="result" id="result"></div>
+    </div>
+    <div class="bmi-info">
+    <h3>What is BMI?</h3>
+    <p>
+      BMI stands for Body Mass Index. It is a measure of body fat based on
+      height and weight that applies to adult men and women. It is calculated
+      using the formula:
+    </p>
+    <p style="font-weight:bold;">BMI = weight(kg) / (height(m) * height(m))</p>
+    <p>
+      BMI is used as a screening tool to identify possible weight problems
+      for adults. However, it does not directly measure body fat and does
+      not account for muscle mass, bone density, overall body composition,
+      and racial and sex differences.
+    </p>
+    <p>
+      BMI categories are as follows:
+      <ul>
+        <li>Underweight: BMI less than 18.5</li>
+        <li>Normal weight: BMI 18.5–24.9</li>
+        <li>Overweight: BMI 25–29.9</li>
+        <li>Obesity: BMI 30 or more</li>
+      </ul>
+    </p>
+  </div>
+
+    <script>
+      function calculateBMI() {
+        var weight = document.getElementById("weight").value;
+        var height = document.getElementById("height").value;
+        if (weight && height) {
+          height /= 100; // Convert cm to meters
+          var bmi = weight / (height * height);
+          var resultElement = document.getElementById("result");
+          resultElement.textContent = "Your BMI is " + bmi.toFixed(2);
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        var calculateButton = document.getElementById("calculateButton");
+        calculateButton.addEventListener("click", calculateBMI);
+      });
+    </script>
+  </body>
+</html>

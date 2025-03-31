@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="STYLES/Healthystudent.css" />
+    <title>Document</title>
+    <style>
+      .header {
+        position: fixed;
+        height: 55px;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-bottom: solid;
+        border-bottom-color: white;
+        border-radius: 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        /* Adjust shadow if needed */
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        /* Remove underline from links */
+      }
+
+      .header-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .logo {
+        height: 30px;
+        width: 30px;
+        margin-top: 12px;
+        border-radius: 50%;
+      }
+
+      .header-1 p {
+        font-family: "Madimi One", sans-serif;
+      }
+
+      .header-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+        padding-right: 34px;
+        position: relative;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+      }
+
+      .dropdown-menu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+      }
+
+      .dropdown-menu a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .menu-icon {
+        display: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 15px;
+        }
+
+        .header-2 {
+          display: none;
+        }
+
+        .menu-icon {
+          display: block;
+        }
+
+        .dropdown-menu {
+          position: static;
+          display: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+    <div class="main">
+      <h1>Diet Plan for College Students</h1>
+      <p>
+        If you are a college student and planning a diet, you must not obsess
+        over calorie counts of food. Just focus on food that is nutritious, and
+        not overly processed. Plenty of options have been given to choose from.
+        If you are allowed to cook in your hostel, it will be easier for you to
+        plan a diet; if not, then you must let your choices known to the
+        canteen. If even that is not possible, choose the healthier ones among
+        the not so healthy options.
+      </p>
+    </div>
+    <div class="monday">
+      <h2>Monday:</h2>
+      <img src="./images/Monday.jpg" alt="Monday" />
+      <ul>
+        <li>
+          Breakfast- 1 tbsp. of peanut butter 3 boiled eggs (300 calories)
+        </li>
+        <li>Morning Snack- sprouts salad (30 calories)</li>
+        <li>
+          Lunch- 100g chicken, cheese and vegetable sandwich (600 calories)
+        </li>
+        <li>Evening Snack– 1 bowl yogurt with fruits (350 calories)</li>
+        <li>
+          Dinner- 200g fish, brown rice, and vegetable salad(300 calories)
+        </li>
+      </ul>
+    </div>
+    <div class="tuesday">
+      <h2>Tuesday:</h2>
+      <img src="./images/Tuesday.jpg" alt="Tuesday" />
+      <ul>
+        <li>
+          Breakfast- 1 tbsp. of peanut butter, an omelet made with three eggs
+          (350 calories)
+        </li>
+        <li>Morning Snack- sprouts salad (30 calories)</li>
+        <li>
+          Lunch- 100g chicken, cheese and vegetable sandwich (600 calories)
+        </li>
+        <li>Evening Snack– 1 bowl yogurt with fruits (350 calories)</li>
+        <li>
+          Dinner- 200g fish, brown rice, and vegetable salad (300 calories)
+        </li>
+      </ul>
+    </div>
+    <div class="wed">
+      <h2>Wednesday:</h2>
+      <img src="./images/Wednesday.jpg" alt="Wednesday" />
+      <ul>
+        <li>
+          Breakfast– 1 bowl of overnight oats, 3 boiled eggs (272 calories)
+        </li>
+        <li>Morning Snack- 1 bowl of mung bean sprouts (60 calories)</li>
+        <li>Lunch- 300g fish, vegetable salad, dal and rice (400 calories)</li>
+        <li>Evening Snack- 1 bowl yogurt with fruits (350 calories)</li>
+        <li>Dinner– Whole wheat bread, cheese, eggs. (300 calories)</li>
+      </ul>
+    </div>
+    <div class="thur">
+      <h2>Thursday:</h2>
+      <img src="./images/Thursday.jpg" alt="Thursday" />
+      <ul>
+        <li>
+          Breakfast- A cup of overnight oats, 3 boiled eggs (approx. 300
+          calories)
+        </li>
+        <li>Morning Snack- Peanut salad (160 calories)</li>
+        <li>
+          Lunch– 100g lightly cooked chicken, 2 Roti, 1 cup rice with dal (400
+          calories)
+        </li>
+        <li>Evening Snack– 1 glass of milk and banana (180 calories)</li>
+        <li>Dinner- Brown rice and black bean curry, or rajma (282 calorie)</li>
+      </ul>
+    </div>
+    <div class="fri">
+      <h2>Friday:</h2>
+      <img src="./images/Friday.jpg" alt="Friday" />
+      <ul>
+        <li>Breakfast- An omelet made with three eggs (265 calories)</li>
+        <li>Morning Snack– Two idli with sambhar dal (312 calories)</li>
+        <li>Lunch- Black eyed peas curry with chappatis (300 calories)</li>
+        <li>Evening Snack- Handful of almonds and walnuts (200 calories)</li>
+        <li>Dinner- A bowl of daliya with veggies (300 calories)</li>
+      </ul>
+    </div>
+    <div class="sat">
+      <h2>Saturday:</h2>
+      <img src="./images/Saturday.jpg" alt="Saturday" />
+      <ul>
+        <li>Breakfast– Dosa with coconut chutney (498 calories)</li>
+        <li>
+          Morning Snack– A bowl of sprouts spiced up with tomato, cucumber and
+          onion. (30 calories)
+        </li>
+        <li>
+          Lunch- Dal, vegetable curry and brown/white rice. (300 calories)
+        </li>
+        <li>Evening Snack- Peanut salad (160 calories)</li>
+        <li>
+          Dinner- Whole wheat bread cheese and vegetable sandwich (400 calories)
+        </li>
+      </ul>
+    </div>
+    <div class="sund">
+      <h2>Sunday:</h2>
+      <img src="./images/sunday.jpg" alt="Sunday" />
+      <ul>
+        <li>
+          Breakfast- stuffed veggie or paneer paranthas with less oil (445
+          calories) whole wheat sandwich (400 calories)
+        </li>
+        <li>Morning Snack- Lassi with a fruit (158 calories)</li>
+        <li>Lunch- Chicken and rice with a salad (220 calories)</li>
+        <li>Evening Snack- Peanut salad (160 calories)</li>
+        <li>
+          Dinner- Brown rice, kidney beans curry and vegetable salad (160
+          calories)
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

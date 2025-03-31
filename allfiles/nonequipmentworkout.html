@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non Equipments</title>
+    <link rel="stylesheet" href="STYLES/nonequipment.css" />
+    <style>
+      .header {
+        position: fixed;
+        height: 55px;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-bottom: solid;
+        border-bottom-color: white;
+        border-radius: 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        /* Adjust shadow if needed */
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        /* Remove underline from links */
+      }
+
+      .header-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .logo {
+        height: 30px;
+        width: 30px;
+        margin-top: 12px;
+        border-radius: 50%;
+      }
+
+      .header-1 p {
+        font-family: "Madimi One", sans-serif;
+      }
+
+      .header-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+        padding-right: 34px;
+        position: relative;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+      }
+
+      .dropdown-menu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+      }
+
+      .dropdown-menu a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .menu-icon {
+        display: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 15px;
+        }
+
+        .header-2 {
+          display: none;
+        }
+
+        .menu-icon {
+          display: block;
+        }
+
+        .dropdown-menu {
+          position: static;
+          display: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+    <div class="dumbbell">
+      <h1 class="first_heading">
+        Full Body Recovery Workout [Stretching + Mobility // Low Impact]
+      </h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Agu4EnLxAGM?si=HKLXubHeUU-udn-Y"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>
+        Uses of Full Body Recovery Workout [Stretching + Mobility // Low Impact]
+      </h2>
+      <ul>
+        <li>
+          Enhances Flexibility: Stretching exercises improve flexibility by
+          lengthening muscles and increasing range of motion.
+        </li>
+
+        <li>
+          Reduces Muscle Tension: Stretching and mobility movements help release
+          tension in muscles, promoting relaxation and reducing stiffness.
+        </li>
+
+        <li>
+          Improves Joint Health: Mobility exercises help maintain and improve
+          joint health by promoting fluid movement and reducing the risk of
+          stiffness or pain.
+        </li>
+
+        <li>
+          Prevents Injury: Regular stretching and mobility work can help prevent
+          injuries by improving flexibility, reducing muscle imbalances, and
+          enhancing body awareness.
+        </li>
+
+        <li>
+          Enhances Recovery: Low-impact exercises promote blood flow and
+          circulation, aiding in the recovery process by delivering nutrients to
+          muscles and removing metabolic waste products.
+        </li>
+
+        <li>
+          Reduces Stress: Engaging in a full-body recovery workout can help
+          reduce stress and promote relaxation, leading to improved overall
+          well-being.
+        </li>
+
+        <li>
+          Improves Posture: Mobility exercises target key areas of the body,
+          such as the hips and shoulders, helping to improve posture and
+          alignment.
+        </li>
+
+        <li>
+          Enhances Performance: By promoting flexibility, mobility, and
+          relaxation, a recovery workout can help athletes and fitness
+          enthusiasts perform better in their chosen activities.
+        </li>
+
+        <li>
+          Supports Active Recovery: Incorporating stretching, mobility, and
+          low-impact exercises into an active recovery routine can help
+          individuals recover from intense workouts or training sessions more
+          effectively.
+        </li>
+
+        <li>
+          Adaptable for All Fitness Levels: Full-body recovery workouts can be
+          modified to suit individuals of all fitness levels and abilities,
+          making them accessible to a wide range of people.
+        </li>
+      </ul>
+    </div>
+    <div class="dumbbell">
+      <h1>10 Minute Abs [Daily Beginner Friendly Workout]</h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/y4EZboFohfs?si=xXU70IgcIZp6RCpj"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Uses Of 10 Minute Abs [Daily Beginner Friendly Workout]</h2>
+      <ul>
+        <li>
+          Strengthens Core Muscles: The 10-minute abs workout targets the
+          muscles of the core, including the rectus abdominis, obliques, and
+          transverse abdominis, helping to strengthen and tone these muscles.
+        </li>
+
+        <li>
+          Improves Posture: Strengthening the core muscles can help improve
+          posture by providing stability and support to the spine, reducing the
+          risk of slouching or lower back pain.
+        </li>
+
+        <li>
+          Enhances Stability and Balance: A strong core is essential for
+          maintaining stability and balance during everyday activities as well
+          as during sports and fitness routines.
+        </li>
+
+        <li>
+          Boosts Confidence: Regularly performing a quick and effective abs
+          workout can help individuals feel more confident about their
+          appearance and physical abilities.
+        </li>
+
+        <li>
+          Increases Core Awareness: The 10-minute abs workout helps individuals
+          develop greater awareness of their core muscles and how to engage them
+          properly during movement.
+        </li>
+
+        <li>
+          Requires Minimal Time: This workout is designed to be completed in
+          just 10 minutes, making it suitable for individuals with busy
+          schedules or those new to exercise.
+        </li>
+
+        <li>
+          Beginner Friendly: The exercises included in the 10-minute abs workout
+          are beginner-friendly, with modifications available for individuals
+          who may need them.
+        </li>
+
+        <li>
+          No Equipment Needed: Most of the exercises in this workout can be
+          performed with just body weight, making it convenient to do at home or
+          while traveling.
+        </li>
+
+        <li>
+          Improves Functional Fitness: Strengthening the core muscles can
+          enhance overall functional fitness, making everyday movements such as
+          bending, lifting, and twisting easier and more efficient.
+        </li>
+
+        <li>
+          Supports Overall Health: A strong core is essential for maintaining
+          overall health and preventing injuries, particularly in the lower back
+          and hips.
+        </li>
+      </ul>
+    </div>
+    <div class="dumbbell">
+      <h1>Lower Body RECOVERY Stretch [ Hips/ Quads/ Hamstrings / Calves]</h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Aa5WNLBA4f4?si=BQywMPNUlM0xAXmf"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>
+        Uses Of Lower Body RECOVERY Stretch [ Hips/ Quads/ Hamstrings / Calves]
+      </h2>
+      <ul>
+        <li>
+          Improves Flexibility: Stretching the hips, quads, hamstrings, and
+          calves helps improve flexibility by increasing the range of motion in
+          these muscles and joints.
+        </li>
+
+        <li>
+          Reduces Muscle Tension: Targeted stretching of the lower body muscles
+          helps release tension, alleviating tightness and discomfort in the
+          hips, quads, hamstrings, and calves.
+        </li>
+
+        <li>
+          Enhances Mobility: Regularly performing lower body stretches can
+          improve mobility and movement patterns, making everyday activities
+          easier and reducing the risk of injury.
+        </li>
+
+        <li>
+          Prevents Muscle Imbalances: Stretching all major muscle groups in the
+          lower body helps prevent muscle imbalances, which can lead to poor
+          posture and increased risk of injury.
+        </li>
+
+        <li>
+          Alleviates Lower Back Pain: Stretching the hips, quads, hamstrings,
+          and calves can help alleviate lower back pain by reducing tightness in
+          surrounding muscles and improving pelvic alignment.
+        </li>
+
+        <li>
+          Reduces Risk of Injury: Incorporating lower body stretches into your
+          routine can help reduce the risk of injuries such as strains, sprains,
+          and muscle tears during physical activity.
+        </li>
+
+        <li>
+          Improves Circulation: Stretching promotes blood flow to the muscles,
+          improving circulation and delivering oxygen and nutrients to the
+          tissues, which aids in recovery.
+        </li>
+
+        <li>
+          Enhances Post-Workout Recovery: Performing lower body stretches after
+          a workout helps relax muscles, reduce soreness, and promote faster
+          recovery.
+        </li>
+
+        <li>
+          Relieves Stress: Stretching can have a calming effect on the body and
+          mind, helping to reduce stress and promote relaxation.
+        </li>
+
+        <li>
+          Improves Athletic Performance: Increased flexibility and mobility from
+          lower body stretching can enhance athletic performance by improving
+          agility, speed, and power.
+        </li>
+      </ul>
+    </div>
+    <div class="dumbbell">
+      <h1>Standing Abs HIIT Workout [NO REPEAT/ LOW IMPACT]</h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/nV50KXgcgDo?si=lIKOwRu1af5fVMll"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Uses Of Standing Abs HIIT Workout [NO REPEAT/ LOW IMPACT]</h2>
+      <ul>
+        <li>
+          Targets Core Muscles: The standing abs HIIT workout focuses on
+          engaging the core muscles, including the rectus abdominis, obliques,
+          and transverse abdominis, to help strengthen and tone the midsection.
+        </li>
+
+        <li>
+          Improves Cardiovascular Health: Incorporating high-intensity intervals
+          into the workout helps elevate the heart rate, improving
+          cardiovascular fitness and increasing calorie burn.
+        </li>
+
+        <li>
+          Enhances Endurance: Performing a standing abs HIIT workout challenges
+          the muscles and cardiovascular system, improving endurance and stamina
+          over time.
+        </li>
+
+        <li>
+          Increases Fat Burning: High-intensity intervals combined with standing
+          ab exercises can help increase fat burning and promote weight loss,
+          especially when combined with a balanced diet.
+        </li>
+
+        <li>
+          Requires No Equipment: This workout can be done without any equipment,
+          making it convenient to do at home, in the gym, or while traveling.
+        </li>
+
+        <li>
+          No Repeat Exercises: The workout features a variety of exercises
+          targeting different areas of the core, with no repeats, keeping the
+          routine engaging and challenging.
+        </li>
+
+        <li>
+          Low Impact: All exercises are performed standing, making this workout
+          low impact and suitable for individuals with joint issues or those who
+          prefer to avoid high-impact movements.
+        </li>
+
+        <li>
+          Time-Efficient: The standing abs HIIT workout is designed to be
+          completed in a short amount of time, making it ideal for busy
+          schedules.
+        </li>
+
+        <li>
+          Improves Balance and Coordination: Many of the exercises in this
+          workout require balance and coordination, helping to improve overall
+          stability and body control.
+        </li>
+
+        <li>
+          Increases Core Stability: By challenging the core muscles in a
+          standing position, this workout helps improve core stability, which is
+          essential for maintaining proper posture and preventing injuries.
+        </li>
+      </ul>
+    </div>
+    <div class="dumbbell">
+      <h1>Full Body Strength Workout (No Equipment)</h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/N4HbeyDChFw?si=--DDPQFENIKkdThl"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Uses Of Full Body Strength Workout (No Equipment)</h2>
+      <ul>
+        <li>
+          Builds Muscle: Full body strength workouts target multiple muscle
+          groups simultaneously, helping to build overall muscle mass and
+          strength.
+        </li>
+
+        <li>
+          Increases Metabolism: Strength training boosts metabolism, leading to
+          increased calorie burn both during and after the workout, which can
+          aid in weight management.
+        </li>
+
+        <li>
+          Improves Bone Health: Weight-bearing exercises in strength workouts
+          help strengthen bones, reducing the risk of osteoporosis and improving
+          bone density.
+        </li>
+
+        <li>
+          Enhances Functional Fitness: Full body strength exercises mimic
+          everyday movements, improving functional fitness and making daily
+          tasks easier to perform.
+        </li>
+
+        <li>
+          Requires No Equipment: This workout can be done without the need for
+          any special equipment, making it accessible to everyone and convenient
+          for home workouts or travel.
+        </li>
+
+        <li>
+          Scalable for All Fitness Levels: Bodyweight exercises can be easily
+          scaled to accommodate different fitness levels, from beginners to
+          advanced athletes.
+        </li>
+
+        <li>
+          Improves Joint Health: Strength training helps strengthen the muscles
+          around joints, improving stability and reducing the risk of injury.
+        </li>
+
+        <li>
+          Boosts Mood: Exercise releases endorphins, chemicals in the brain that
+          help reduce stress and improve mood, leading to feelings of well-being
+          and happiness.
+        </li>
+
+        <li>
+          Enhances Posture: Strengthening the muscles of the back, core, and
+          shoulders can help improve posture and alignment, reducing the risk of
+          back pain and injury.
+        </li>
+
+        <li>
+          Increases Energy Levels: Regular strength training workouts can
+          increase energy levels, reduce fatigue, and improve overall vitality
+          and well-being.
+        </li>
+      </ul>
+    </div>
+    <div class="dumbbell">
+      <h1>
+        Full Body Tabata Workout [Strength , HIIT, & Cardio/ No Equipment]
+      </h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/cCsQXGvxnDU?si=N9m8-nA1N9sK6cFt"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>
+        Uses Of Full Body Tabata Workout [Strength , HIIT, & Cardio/ No
+        Equipment]
+      </h2>
+      <ul>
+        <li>
+          Improves Cardiovascular Health: The high-intensity intervals in Tabata
+          workouts elevate the heart rate, improving cardiovascular fitness and
+          endurance.
+        </li>
+
+        <li>
+          Boosts Metabolism: Tabata training increases metabolism, leading to
+          greater calorie burn during and after the workout, which can aid in
+          weight loss and management.
+        </li>
+
+        <li>
+          Builds Strength: Incorporating strength exercises into Tabata workouts
+          helps build muscle mass and strength, improving overall body
+          composition and functional fitness.
+        </li>
+
+        <li>
+          Enhances Explosive Power: Tabata intervals are designed to be
+          performed at maximum intensity, helping to develop explosive power and
+          athletic performance.
+        </li>
+
+        <li>
+          Requires No Equipment: This workout can be done without the need for
+          any equipment, making it accessible to everyone and convenient for
+          home workouts or travel.
+        </li>
+
+        <li>
+          Increases Endurance: Regular Tabata training improves endurance and
+          stamina, allowing individuals to sustain high-intensity efforts for
+          longer periods.
+        </li>
+
+        <li>
+          Time-Efficient: Tabata workouts are typically short and intense,
+          making them ideal for individuals with busy schedules who want to
+          maximize their workout time.
+        </li>
+
+        <li>
+          Scalable for All Fitness Levels: Tabata intervals can be scaled to
+          accommodate different fitness levels, with modifications available for
+          beginners and advanced athletes.
+        </li>
+
+        <li>
+          Improves Agility and Speed: Tabata training involves quick, explosive
+          movements that improve agility, speed, and coordination.
+        </li>
+
+        <li>
+          Enhances Mood: Exercise releases endorphins, chemicals in the brain
+          that help reduce stress and improve mood, leading to feelings of
+          well-being and happiness.
+        </li>
+      </ul>
+    </div>
+    <div class="dumbbell">
+      <h1>Upper Body Strength Workout [No Equipment]</h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/0Yx_qbbzM0c?si=ZoFGqNTgrgX-zDKv"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Uses Of Upper Body Strength Workout [No Equipment]</h2>
+      <ul>
+        <li>
+          Builds Muscle: An upper body strength workout targets the muscles of
+          the chest, back, shoulders, and arms, helping to increase muscle mass
+          and strength.
+        </li>
+
+        <li>
+          Improves Functional Fitness: Strengthening the upper body muscles
+          improves functional fitness, making everyday tasks such as lifting,
+          carrying, and reaching easier and more efficient.
+        </li>
+
+        <li>
+          Enhances Bone Health: Weight-bearing exercises for the upper body help
+          strengthen bones, reducing the risk of osteoporosis and improving bone
+          density.
+        </li>
+
+        <li>
+          Requires No Equipment: This workout can be done without the need for
+          any equipment, making it accessible to everyone and convenient for
+          home workouts or travel.
+        </li>
+
+        <li>
+          Scalable for All Fitness Levels: Bodyweight exercises can be easily
+          scaled to accommodate different fitness levels, from beginners to
+          advanced athletes.
+        </li>
+
+        <li>
+          Improves Posture: Strengthening the muscles of the upper back and
+          shoulders helps improve posture and alignment, reducing the risk of
+          back pain and injury.
+        </li>
+
+        <li>
+          Boosts Metabolism: Strength training increases metabolism, leading to
+          greater calorie burn both during and after the workout, which can aid
+          in weight management.
+        </li>
+
+        <li>
+          Enhances Grip Strength: Many upper body exercises also target the
+          muscles of the hands and forearms, improving grip strength and overall
+          hand dexterity.
+        </li>
+
+        <li>
+          Increases Energy Levels: Regular upper body strength training workouts
+          can increase energy levels, reduce fatigue, and improve overall
+          vitality and well-being.
+        </li>
+
+        <li>
+          Boosts Mood: Exercise releases endorphins, chemicals in the brain that
+          help reduce stress and improve mood, leading to feelings of well-being
+          and happiness.
+        </li>
+      </ul>
+    </div>
+    <div class="dumbbell">
+      <h1>Arms & Abs [No Equipment + Modifications]</h1>
+      <iframe
+        class="dumbbellvideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/IXichzb01QM?si=AsOM6Z9pffIghZpQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Uses Of Arms & Abs [No Equipment + Modifications]</h2>
+      <ul>
+        <li>
+          Strengthens Core Muscles: The abs portion of the workout targets the
+          muscles of the core, including the rectus abdominis, obliques, and
+          transverse abdominis, helping to strengthen and tone these muscles.
+        </li>
+
+        <li>
+          Builds Upper Body Strength: The arms portion of the workout focuses on
+          strengthening the muscles of the arms, including the biceps, triceps,
+          and shoulders, improving overall upper body strength and definition.
+        </li>
+
+        <li>
+          Improves Functional Fitness: Strengthening the core and arms muscles
+          improves functional fitness, making everyday tasks such as lifting,
+          carrying, and reaching easier and more efficient.
+        </li>
+
+        <li>
+          Requires No Equipment: This workout can be done without the need for
+          any equipment, making it accessible to everyone and convenient for
+          home workouts or travel.
+        </li>
+
+        <li>
+          Modifications Available: The workout includes modifications for
+          different fitness levels, allowing beginners to start with simpler
+          exercises and gradually progress to more challenging variations.
+        </li>
+
+        <li>
+          Targets Multiple Muscle Groups: The arms and abs workout targets
+          multiple muscle groups simultaneously, providing a comprehensive
+          workout for the upper body.
+        </li>
+
+        <li>
+          Improves Posture: Strengthening the muscles of the core and upper body
+          helps improve posture and alignment, reducing the risk of back pain
+          and injury.
+        </li>
+
+        <li>
+          Increases Energy Levels: Regular arms and abs workouts can increase
+          energy levels, reduce fatigue, and improve overall vitality and
+          well-being.
+        </li>
+
+        <li>
+          Enhances Grip Strength: Many exercises in the arms portion of the
+          workout also target the muscles of the hands and forearms, improving
+          grip strength and overall hand dexterity.
+        </li>
+
+        <li>
+          Boosts Mood: Exercise releases endorphins, chemicals in the brain that
+          help reduce stress and improve mood, leading to feelings of well-being
+          and happiness.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

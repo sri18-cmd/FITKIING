@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    padding-top: 100PX;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-info h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+    color: #666;
+}
+
+.query {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.query:hover {
+    background-color: #444;
+}

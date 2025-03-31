@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="STYLES/signup.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="content">
+        <header>Signup Form</header>
+        <form action="#" onsubmit="createAccount(); return false;">
+          <div class="field">
+            <span class="fa fa-user"></span>
+            <input
+              id="newUsername"
+              type="text"
+              required
+              placeholder="Username"
+            />
+          </div>
+          <div class="field">
+            <span class="fa fa-envelope"></span>
+            <input id="newEmail" type="email" required placeholder="Email" />
+          </div>
+          <div class="field">
+            <span class="fa fa-calendar"></span>
+            <input id="dob" type="date" required placeholder="Date of Birth" />
+          </div>
+          <div class="field">
+            <span class="fa fa-phone"></span>
+            <input
+              id="phoneNumber"
+              type="tel"
+              required
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="field space">
+            <span class="fa fa-lock"></span>
+            <input
+              id="newPassword"
+              type="password"
+              class="pass-key"
+              required
+              placeholder="Password"
+            />
+            <span class="show">SHOW</span>
+          </div>
+          <div class="field">
+            <input type="submit" value="Signup" />
+          </div>
+        </form>
+        <div class="login">
+          Already have an account?
+          <a href="login.html">Login Now</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js files/signup.js"></script>
+  </body>
+</html>

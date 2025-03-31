@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="STYLES/healthyveg.css" />
+    <title>Document</title>
+    <style>
+      .header {
+        position: fixed;
+        height: 55px;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-bottom: solid;
+        border-bottom-color: white;
+        border-radius: 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        /* Adjust shadow if needed */
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        /* Remove underline from links */
+      }
+
+      .header-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .logo {
+        height: 30px;
+        width: 30px;
+        margin-top: 12px;
+        border-radius: 50%;
+      }
+
+      .header-1 p {
+        font-family: "Madimi One", sans-serif;
+      }
+
+      .header-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+        padding-right: 34px;
+        position: relative;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+      }
+
+      .dropdown-menu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+      }
+
+      .dropdown-menu a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .menu-icon {
+        display: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 15px;
+        }
+
+        .header-2 {
+          display: none;
+        }
+
+        .menu-icon {
+          display: block;
+        }
+
+        .dropdown-menu {
+          position: static;
+          display: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+    <div class="main">
+      <h1>Diet Plan for Vegetarians/Vegans</h1>
+      <p>
+        For vegetarians and vegans, prioritizing nutrient-rich foods is key for
+        optimal health. Focus on whole plant-based foods such as fruits,
+        vegetables, legumes, whole grains, nuts, and seeds to ensure adequate
+        intake of protein, fiber, vitamins, and minerals. Incorporate a variety
+        of protein sources like tofu, tempeh, legumes, lentils, quinoa, and
+        chickpeas into meals to support muscle repair and overall wellness.
+        Include plenty of leafy greens, colorful vegetables, and fruits to
+        provide essential vitamins and antioxidants. Supplement with vitamin B12
+        and omega-3 fatty acids as needed. Experiment with plant-based cooking
+        techniques and recipes to create flavorful and satisfying meals.
+        Remember, a well-planned vegetarian or vegan diet can provide all the
+        nutrients necessary for thriving health and vitality.
+      </p>
+    </div>
+    <div class="monday">
+      <h2>Monday:</h2>
+      <img src="./images/Monday.jpg" alt="Monday" />
+      <ul>
+        <li>
+          Breakfast: tempeh bacon with sautéed mushrooms, avocado, and wilted
+          arugula
+        </li>
+        <li>
+          Lunch: whole-grain pasta with lentil “meatballs” and a side salad
+        </li>
+        <li>
+          Dinner: cauliflower and chickpea tacos with guacamole and pico de
+          gallo
+        </li>
+        <li>Snacks: air-popped popcorn, kale chips, and trail mix</li>
+      </ul>
+    </div>
+    <div class="tuesday">
+      <h2>Tuesday:</h2>
+      <img src="./images/Tuesday.jpg" alt="Tuesday" />
+      <ul>
+        <li>coconut yogurt with berries, walnuts, and chia seeds</li>
+        <li>
+          Lunch: baked tofu with sautéed red cabbage, Brussels sprouts, and
+          herbed couscous
+        </li>
+        <li>
+          Dinner: mushroom lentil loaf with garlic cauliflower and Italian green
+          beans
+        </li>
+        <li>
+          Snacks: bell peppers with guacamole, fruit leather, and seaweed crisps
+        </li>
+      </ul>
+    </div>
+    <div class="wed">
+      <h2>Wednesday:</h2>
+      <img src="./images/Wednesday.jpg" alt="Wednesday" />
+      <ul>
+        <li>
+          Breakfast: sweet potato toast topped with peanut butter and banana
+        </li>
+        <li>
+          Lunch: tempeh taco salad with quinoa, avocados, tomatoes, onions,
+          beans, and cilantro
+        </li>
+        <li>
+          Dinner: oat risotto with Swiss chard, mushrooms, and butternut squash
+        </li>
+        <li>Snacks: mixed berries, vegan protein shake, and walnuts</li>
+      </ul>
+    </div>
+    <div class="thur">
+      <h2>Thursday:</h2>
+      <img src="./images/Thursday.jpg" alt="Thursday" />
+      <ul>
+        <li>
+          Breakfast: eggless quiche with silken tofu, broccoli, tomatoes, and
+          spinach
+        </li>
+        <li>Lunch: chickpea and spinach curry with brown rice</li>
+        <li>
+          Dinner:Mediterranean lentil salad with cucumbers, olives, peppers,
+          sun-dried tomatoes, kale, and parsley
+        </li>
+        <li>
+          Snacks: roasted edamame, sliced pear, and energy balls made from oats,
+          chia seeds, nut butter, and dried fruit
+        </li>
+      </ul>
+    </div>
+    <div class="fri">
+      <h2>Friday:</h2>
+      <img src="./images/Friday.jpg" alt="Friday" />
+      <ul>
+        <li>
+          Breakfast: overnight oats with apple slices, pumpkin seeds,
+          cinnamon,and nut butter
+        </li>
+        <li>
+          Lunch: black bean veggie burger with steamed broccoli and sweet potato
+          wedges
+        </li>
+        <li>
+          Dinner: mac and “cheese” with nutritional yeast and collard greens
+        </li>
+        <li>Snacks: pistachios, homemade granola, and coconut chia pudding</li>
+      </ul>
+    </div>
+    <div class="sat">
+      <h2>Saturday:</h2>
+      <img src="./images/Saturday.jpg" alt="Saturday" />
+      <ul>
+        <li>
+          Breakfast: breakfast skillet with tempeh, broccoli, kale, tomatoes,
+          and zucchini
+        </li>
+        <li>Lunch: garlic-ginger tofu with stir-fried veggies and quinoa</li>
+        <li>
+          Dinner: bean salad with black-eyed peas, tomatoes, corn, bell
+          peppers,and onions
+        </li>
+        <li>
+          Snacks: roasted pumpkin seeds, frozen grapes, and celery with almond
+          butter
+        </li>
+      </ul>
+    </div>
+    <div class="sund">
+      <h2>Sunday:</h2>
+      <img src="./images/sunday.jpg" alt="Sunday" />
+      <ul>
+        <li>
+          Breakfast: whole-grain toast with avocado and nutritional
+          yeastalongside a vegan protein shake
+        </li>
+        <li>Lunch: lentil chili with grilled asparagus and baked potato</li>
+        <li>
+          Dinner: vegetable paella with brown rice,onions, tomatoes, bell
+          peppers, artichoke, and chickpeas
+        </li>
+        <li>Snacks:almonds, fruit salad, and carrots with hummus</li>
+      </ul>
+    </div>
+  </body>
+</html>

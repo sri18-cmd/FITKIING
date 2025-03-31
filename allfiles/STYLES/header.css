@@ -1,0 +1,100 @@
+.header {
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-radius: 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    /* Adjust shadow if needed */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+    border-radius: 50%;
+}
+
+.header-1 p {
+    font-family: 'Madimi One', sans-serif;
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    padding-right: 34px;
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .header-2 {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .dropdown-menu {
+        position: static;
+        display: none;
+        width: 100%;
+    }
+}

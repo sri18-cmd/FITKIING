@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="STYLES/healthyit.css" />
+    <title>Document</title>
+    <style>
+      .header {
+        position: fixed;
+        height: 55px;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-bottom: solid;
+        border-bottom-color: white;
+        border-radius: 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        /* Adjust shadow if needed */
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        /* Remove underline from links */
+      }
+
+      .header-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .logo {
+        height: 30px;
+        width: 30px;
+        margin-top: 12px;
+        border-radius: 50%;
+      }
+
+      .header-1 p {
+        font-family: "Madimi One", sans-serif;
+      }
+
+      .header-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+        padding-right: 34px;
+        position: relative;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+      }
+
+      .dropdown-menu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+      }
+
+      .dropdown-menu a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .menu-icon {
+        display: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 15px;
+        }
+
+        .header-2 {
+          display: none;
+        }
+
+        .menu-icon {
+          display: block;
+        }
+
+        .dropdown-menu {
+          position: static;
+          display: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+    <div class="main">
+      <h1>Diet Plan for Busy Proffesionals</h1>
+      <p>
+        For busy professionals, prioritizing nutritious food choices over
+        calorie counting is essential for sustained energy and productivity. Opt
+        for whole, minimally processed foods rich in protein, healthy fats,
+        complex carbohydrates, vitamins, and minerals to fuel long workdays.
+        Lean proteins like chicken, fish, and legumes, alongside fruits,
+        vegetables, whole grains, nuts, and seeds, provide essential nutrients
+        for mental clarity and focus. Stay hydrated with water and herbal teas
+        throughout the day to maintain alertness. Balanced meals incorporating a
+        mix of nutrients support steady energy levels and cognitive function.
+        Listen to your body's cues to adjust meal timing and portion sizes as
+        needed. If time permits, meal prep with nutritious ingredients;
+        otherwise, choose convenient yet wholesome options. Remember, nourishing
+        your body supports overall well-being and performance in the workplace.
+      </p>
+    </div>
+    <div class="monday">
+      <h2>Monday:</h2>
+      <img src="./images/Monday.jpg" alt="Monday" />
+      <ul>
+        <li>
+          Breakfast- 1 small banana, 1 kiwi fruit and 1 pot fat-free natural
+          yogurt. - 195 cals
+        </li>
+        <li>Morning Snack- sSmall pack of raspberries - 20 cals</li>
+        <li>
+          Lunch- 1½ carton fresh minestrone soup with 1 small wholemeal roll.
+          Plus 1 orange. - 285 cals
+        </li>
+        <li>Evening Snack– Large mixed salad (without dressing) - 40 cals</li>
+        <li>
+          Dinner- 2Vegetable gnocchi made from ¼ pack (around 125g) fresh
+          gnocchi, steamed veggies and ½ jar low-fat tomato sauce. Serve with
+          1tsp Parmesan and salad. - 360 cals
+        </li>
+      </ul>
+    </div>
+    <div class="tuesday">
+      <h2>Tuesday:</h2>
+      <img src="./images/Tuesday.jpg" alt="Tuesday" />
+      <ul>
+        <li>
+          Breakfast- 1 apple, a handful of grapes, 1 orange and 1 nectarine. -
+          220 cals
+        </li>
+        <li>Morning Snack- 1 small pot low-fat fruit yogurt - 60 cals</li>
+        <li>
+          Lunch- Salad topped with 1 sliced skinless chicken breast and fat-free
+          dressing and 1 wholemeal pitta. - 300 cals
+        </li>
+        <li>Evening Snack– Smoked salmon with salad leaves. - 80 cals</li>
+        <li>
+          Dinner- Chicken couscous made from 8tbsp couscous cooked according to
+          the pack instructions, 4 sliced spring onions, lemon juice, black
+          pepper, coriander and 1 small skinless chicken breast. Serve with
+          salad. - 390 cals
+        </li>
+      </ul>
+    </div>
+    <div class="wed">
+      <h2>Wednesday:</h2>
+      <img src="./images/Wednesday.jpg" alt="Wednesday" />
+      <ul>
+        <li>
+          Breakfast– 2 slices wholemeal toast with 2tsp each of low-fat spread
+          and honey. - 240 cals
+        </li>
+        <li>Morning Snack- 1 small banana - 75 cals</li>
+        <li>
+          Lunch- 1 wholemeal pitta bread with half a 200g tub tzatziki, crudités
+          and 1 nectarine. - 310 cals
+        </li>
+        <li>
+          Evening Snack- Bowl of vegetable, carrot or minestrone soup. - 110
+          cals
+        </li>
+        <li>
+          Dinner– 1 grilled lean loin lamb chop with 5 minted new potatoes, 1tsp
+          low-fat spread, vegetables and 1tsp mint sauce. - 395 cals
+        </li>
+      </ul>
+    </div>
+    <div class="thur">
+      <h2>Thursday:</h2>
+      <img src="./images/Thursday.jpg" alt="Thursday" />
+      <ul>
+        <li>
+          Breakfast-1 wholemeal fruit scone with 2tsp low-fat spread and a
+          handful of grapes. - 245 cals
+        </li>
+        <li>
+          Morning Snack- 1 slice wholemeal toast with 1tsp low-fat spread and a
+          scrape of Marmite - 95 cals
+        </li>
+        <li>
+          Lunch– 1 small wholemeal roll filled with 2tsp low-fat spread, 1 slice
+          lean ham and salad. Plus 1 pot fat-free fruit yogurt and 1 small
+          banana. - 315 cals
+        </li>
+        <li>
+          Evening Snack– Rocket and parmesan salad – without dressing. - 130
+          cals
+        </li>
+        <li>
+          Dinner- 1 large jacket potato with half a 200g tub tzatziki and salad.
+          - 400 cals
+        </li>
+      </ul>
+    </div>
+    <div class="fri">
+      <h2>Friday:</h2>
+      <img src="./images/Friday.jpg" alt="Friday" />
+      <ul>
+        <li>
+          Breakfast- 6tbsp branflakes with 1tbsp raisins, raspberries and
+          skimmed milk. - 245 cals
+        </li>
+        <li>
+          Morning Snack– 1 small pot fat-free fruit yogurt and 1 peach - 110
+          cals
+        </li>
+        <li>
+          Lunch- 4 oat crackers with 2tbsp low-fat soft cheese and salad. Plus 1
+          pot fat-free fruit yogurt. - 315 cals
+        </li>
+        <li>
+          Evening Snack- Grilled or roasted vegetables – without dressing. - 150
+          cals
+        </li>
+        <li>
+          Dinner- Omelette made using 1tsp sunflower oil, ½ small red onion, a
+          handful of mushrooms, ½ red pepper, ½ green pepper, ½ courgette, 3
+          eggs, 1tbsp skimmed milk and 2tbsp grated reduced-fat Cheddar. Serve
+          with salad. - 415 cals
+        </li>
+      </ul>
+    </div>
+    <div class="sat">
+      <h2>Saturday:</h2>
+      <img src="./images/Saturday.jpg" alt="Saturday" />
+      <ul>
+        <li>
+          Breakfast– 3tbsp unsweetened muesli with skimmed milk and 1 apple. -
+          250 cals
+        </li>
+        <li>Morning Snack– 6tbsp branflakes with skimmed milk - 190 cals</li>
+        <li>
+          Lunch-1 small box sushi and 1 large tub ready made fruit salad (check
+          the labels for calories) - 303 cals
+        </li>
+        <li>Evening Snack-Melon or figs with parma ham. - 160 cals</li>
+        <li>
+          Dinner- Steak sandwich made from 150g grilled fillet steak, 15cm piece
+          granary bread and salad. - 525 cals
+        </li>
+      </ul>
+    </div>
+    <div class="sund">
+      <h2>Sunday:</h2>
+      <img src="./images/sunday.jpg" alt="Sunday" />
+      <ul>
+        <li>
+          Breakfast-1 skinny latte, 1 reduced-sugar cereal bar and 1 small
+          banana. - 300 cals
+        </li>
+        <li>
+          Morning Snack-1 wholemeal pitta filled with 1 slice lean ham and salad
+          - 175 cals
+        </li>
+        <li>
+          Lunch-1 small box sushi and 1 large tub ready made fruit salad (check
+          the labels for calories) - 303 cals
+        </li>
+        <li>Evening Snack-Melon or figs with parma ham. - 160 cals</li>
+        <li>
+          Dinner-Tuna and sweetcorn pesto made from 175g cooked wholewheat pasta
+          with 1tbsp pesto sauce, 1 chopped tomato, 2tbsp sweetcorn, ½ small can
+          tuna in water and lightly steamed broccoli. Serve with 1tbsp grated
+          Parmesan cheese and salad. - 555 cals
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

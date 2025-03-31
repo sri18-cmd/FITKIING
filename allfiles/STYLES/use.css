@@ -1,0 +1,68 @@
+      body {
+          background-color: #010101;
+          color: #ffffff;
+          font-family: Arial, sans-serif;
+          margin: 0;
+      }
+
+      header {
+          background-color: #000;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+      }
+
+      main {
+          margin-top: 80px;
+          padding: 20px;
+      }
+
+      footer {
+          background-color: #000;
+          color: #fff;
+          text-align: center;
+          padding: 10px;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+      }
+
+      .flex-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+      }
+
+      .equipment-item {
+          background-color: #343434;
+          border-radius: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          margin: 10px;
+          padding: 20px;
+          width: 300px;
+          text-align: center;
+      }
+
+      .equipment-item img {
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 0%;
+          margin-bottom: 15px;
+      }
+
+      /* Existing CSS styles */
+
+      .request-button {
+          background-color: #313131;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          padding: 8px 16px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+      }
+
+      .request-button:hover {
+          background-color: #1f0303;
+      }

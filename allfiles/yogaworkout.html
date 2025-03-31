@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yogaworkout</title>
+    <link rel="stylesheet" href="STYLES/yogaworkout.css" />
+    <link rel="stylesheet" href="./" />
+    <style>
+      .header {
+        position: fixed;
+        height: 55px;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-bottom: solid;
+        border-bottom-color: white;
+        border-radius: 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        /* Adjust shadow if needed */
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        /* Remove underline from links */
+      }
+
+      .header-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .logo {
+        height: 30px;
+        width: 30px;
+        margin-top: 12px;
+        border-radius: 50%;
+      }
+
+      .header-1 p {
+        font-family: "Madimi One", sans-serif;
+      }
+
+      .header-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+        padding-right: 34px;
+        position: relative;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+      }
+
+      .dropdown-menu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+      }
+
+      .dropdown-menu a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .menu-icon {
+        display: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 15px;
+        }
+
+        .header-2 {
+          display: none;
+        }
+
+        .menu-icon {
+          display: block;
+        }
+
+        .dropdown-menu {
+          position: static;
+          display: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-1">
+        <img class="logo" src="images/logo.jpeg" alt="FIT KIING Logo" />
+        <p>FIT KIING</p>
+      </div>
+      <div class="header-2">
+        <a href="main.html"><div class="header-home">Home</div></a>
+        <a href="contact.html"><div class="header-Contact">Contact</div></a>
+        <a href="feedback.html"><div class="header-Feedback">Feedback</div></a>
+        <a href="healthyrecipes.html"
+          ><div class="header-HealthyRecipes">Healthy Recipes</div></a
+        >
+        <a href="workoutsmainpage.html"
+          ><div class="header-about">Home Workouts</div></a
+        >
+      </div>
+    </div>
+    <div>
+      <h1 class="firstheading">Introduction to Yoga</h1>
+      <p class="intro">
+        Yoga is a centuries-old practice that originated in ancient India and
+        has evolved into a popular form of physical, mental, and spiritual
+        exercise worldwide. The word "yoga" is derived from the Sanskrit word
+        "yuj," which means to yoke or unite, symbolizing the union of body,
+        mind, and spirit. At its core, yoga is a holistic discipline that
+        encompasses various techniques and practices aimed at promoting overall
+        well-being and harmony. While commonly associated with physical postures
+        or asanas, yoga extends beyond mere exercise to include breath control
+        (pranayama), meditation (dhyana), ethical guidelines (yamas and
+        niyamas), and philosophical teachings. The physical aspect of yoga
+        involves performing a series of postures or asanas, each designed to
+        stretch, strengthen, and balance the body. These postures are often
+        combined with controlled breathing techniques to enhance the mind-body
+        connection and facilitate relaxation and focus. Beyond the physical
+        benefits, yoga is renowned for its mental and emotional benefits.
+        Regular practice can help reduce stress, anxiety, and depression,
+        improve concentration and mental clarity, and promote inner peace and
+        emotional well-being. One of the key principles of yoga is mindfulness,
+        or being fully present in the moment. Through mindfulness practices such
+        as meditation and conscious breathing, yoga cultivates awareness and
+        self-reflection, fostering a deeper understanding of oneself and one's
+        place in the world. Yoga is not a one-size-fits-all practice; it can be
+        adapted to suit individuals of all ages, fitness levels, and abilities.
+        Whether practiced in a group setting or individually, yoga offers a
+        journey of self-discovery and personal growth, inviting practitioners to
+        explore their physical, mental, and spiritual dimensions in pursuit of
+        greater health, happiness, and harmony.
+      </p>
+    </div>
+    <div class="benefits">
+      <h1>benefits of Yoga</h1>
+      <ul>
+        <li>
+          Improved Flexibility: Regular yoga practice gradually increases
+          flexibility by stretching and lengthening muscles, improving range of
+          motion and joint mobility.
+        </li>
+
+        <li>
+          Increased Strength: Many yoga poses require engaging and holding
+          specific muscle groups, leading to improved muscular strength and
+          endurance, particularly in the core, arms, legs, and back.
+        </li>
+
+        <li>
+          Enhanced Balance and Coordination: Yoga poses often involve
+          maintaining balance and coordination, which can help improve stability
+          and proprioception over time.
+        </li>
+
+        <li>
+          Better Posture: Yoga helps correct postural imbalances by
+          strengthening muscles and promoting proper alignment of the spine,
+          resulting in better posture and reduced risk of back and neck pain.
+        </li>
+
+        <li>
+          Stress Reduction: Mindfulness practices such as deep breathing,
+          meditation, and relaxation techniques incorporated in yoga help calm
+          the nervous system, reduce stress hormones like cortisol, and promote
+          relaxation and mental clarity.
+        </li>
+
+        <li>
+          Improved Breathing: Yoga emphasizes conscious breathing techniques
+          (pranayama) that enhance lung capacity, increase oxygen intake, and
+          improve respiratory efficiency, leading to better overall respiratory
+          health.
+        </li>
+
+        <li>
+          Enhanced Mental Focus: Yoga encourages present-moment awareness and
+          concentration, improving mental focus, cognitive function, and
+          attention span both on and off the mat.
+        </li>
+
+        <li>
+          Emotional Well-being: Yoga fosters emotional resilience and stability
+          by promoting self-awareness, self-acceptance, and emotional
+          regulation, leading to reduced symptoms of anxiety, depression, and
+          mood disorders.
+        </li>
+
+        <li>
+          Better Sleep Quality: Regular yoga practice can help alleviate
+          insomnia and promote better sleep quality by reducing stress and
+          anxiety, relaxing the body and mind, and establishing a bedtime
+          routine conducive to sleep.
+        </li>
+
+        <li>
+          Increased Energy Levels: Yoga stimulates the flow of energy (prana)
+          throughout the body, revitalizing the system, and leaving
+          practitioners feeling energized, rejuvenated, and balanced.
+        </li>
+
+        <li>
+          Boosted Immune System: Yoga supports overall immune function by
+          reducing inflammation, improving circulation, and promoting
+          relaxation, helping the body maintain optimal health and resilience
+          against illness and disease.
+        </li>
+
+        <li>
+          Enhanced Digestive Health: Certain yoga poses, such as twists and
+          forward bends, massage and stimulate the digestive organs, promoting
+          healthy digestion, alleviating gastrointestinal issues, and reducing
+          bloating and discomfort.
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h1 class="secondheading">Welcome to 30 Days Yoga Challenge</h1>
+      <h2>Day 0:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/2HKBOfEX7HA?si=3B0dpR6gjN08Bk3i"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 1:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Qbnpbqd-jhQ?si=bnNAiAQCn8lj3vD_"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 2:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/4rZAQ2LfDAs?si=RKyaoAu_wQ9Ocqky"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 3:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/SZF7Jp6SyPI?si=Ronn62QAJM-e02k4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 4:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/IM1_XI56boY?si=fsCFZtGXvo9MdfCV"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 5:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GFY356-1K-Q?si=VpqeL_SVYvgqyiMa"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 6:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MAASAP7qXCQ?si=0VxNM4FEqp2i_qck"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 7:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/mACIBRUH5TU?si=F_fM6E7w4N__GRCn"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 8:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9jZfPYL6ufU?si=GtflkhsGAHny4kUh"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 9:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/2GVysgcBo_U?si=zXesu9Wwe2Q-FAva"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 10:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/IOwKfP2LWxk?si=FKSXBNKEB-2q7Yjn"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 11:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MaN7TOFv_RQ?si=8PXfYIdRaHRRjEgo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 12:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/w2Ynv-m0gzI?si=ED5_VLTsb-g_9wg4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 13:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/RnB4fHR5GEQ?si=9n5nmTfavJ1Zf33m"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 14:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Gya78kL0_rY?si=7Wx6wqZk9VxXej21"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 15:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Gya78kL0_rY?si=iioXaXmgdDIZXne2"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 16:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/G0ndIdcZfyA?si=gvy2kgzgn99QUYG8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Day 17:</h2>
+    </div>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/UDAqG15Cl-A?si=a_T4W3tskAqyeXy3"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 18:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/lYr253FBnLk?si=bdLqClZ76kS2N2Iw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 19:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/9Od_S1P0c40?si=Kaf9pfHH8D412rBx"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 20:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/w7GSmtiDUJ4?si=yANuDazSKzB8ImhD"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 21:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/w7GSmtiDUJ4?si=DONKuvflZ5z7Ifpe"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 22:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/-ECIZdaPcQE?si=N4sDrJ7x0oSTZlMq"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 23:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/5e_FFdHqnKM?si=YEZfhvK9xTU-TSYR"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 24:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/49M4lpWZspo?si=v1qanfrNBTS6UVRg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 25:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/cJSCkiVlDPE?si=dw7VESQA1WKyrH7K"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 26:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/HSu97STh1eY?si=PMopPqkuHqBYVbvF"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 27:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/2AF__AJRNSE?si=OUdqve2Pvj_1Dp3_"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 28:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/_DsK4Fgf2x8?si=p42xiebiorHe4koR"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 29:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/tOyxaZMBP7M?si=4DdMseVA3SYDoMtc"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 30:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/y1-mbo1nbUM?si=AYrkZG2ldnxxFPRo"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Day 31:</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/7KzRILY6WCM?si=_svSrxRTeH8eVOwt"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
