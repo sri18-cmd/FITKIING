@@ -15,7 +15,7 @@ function login() {
 
   // Check if input matches stored values
   if (username === storedUsername && password === storedPassword) {
-    window.location.href = "main.html"; // Redirect to main.html if login is successful
+    window.location.href = "../main.html"; // Redirect to ../main.html if login is successful
   } else {
     alert("Invalid username or password");
   }
